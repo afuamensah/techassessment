@@ -3,8 +3,9 @@
 **Note:** *I was not entirely sure what folder to push to the repo, but I assumed that I would need the theme and and plugin in there, so I added the entire wp-content folder for good measure. Additionally, I was not sure how to export the database, so I exported the database tables into an .sql file and pushed to this repo.*
 
 To see just the functions.php file, I have put the link here:
-To see the SQL file, it is here:
 
+To see the SQL file, it is here:
+<br/>
 ## My Process
 First, after downloading the Wordpress zipped folder, I extracted it and moved it to the htdocs folder in XAMPP.
 

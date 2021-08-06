@@ -7,6 +7,7 @@ To see just the **functions.php** file, I have put the link here:
 To see the **testtech.sql** file, it is here:
 
 <br/>
+
 ## My Process
 
 First, after downloading the Wordpress zipped folder, I extracted it and moved it to the htdocs folder in XAMPP.

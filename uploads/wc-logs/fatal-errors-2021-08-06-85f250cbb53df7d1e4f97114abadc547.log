@@ -1,0 +1,22 @@
+2021-08-06T02:36:48+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in C:\xampp\htdocs\techtest\wp-includes\kses.php:1650
+Stack trace:
+#0 C:\xampp\htdocs\techtest\wp-includes\kses.php(1650): preg_replace('/[\\x00-\\x08\\x0B...', '', Object(WC_Product_Attribute))
+#1 C:\xampp\htdocs\techtest\wp-includes\kses.php(757): wp_kses_no_null(Object(WC_Product_Attribute), Array)
+#2 C:\xampp\htdocs\techtest\wp-includes\kses.php(2044): wp_kses(Object(WC_Product_Attribute), 'post')
+#3 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(305): wp_kses_post(Object(WC_Product_Attribute))
+#4 C:\xampp\htdocs\techtest\wp-includes\plugin.php(189): WP_Hook->apply_filters(Object(WC_Product_Attribute), Array)
+#5 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\includes\wc-attribute-functions.php(211): apply_filters('woocommerce_att...', Object(WC_Product_Attribute), Object(WC_Product_Attribute), '')
+#6 C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php(16): wc_attribute_label(Ob in C:\xampp\htdocs\techtest\wp-includes\kses.php on line 1650
+
+2021-08-06T02:40:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_attribute() in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(303): show_attributes('')
+#1 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\techtest\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\techtest\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\techtest\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\x in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php on line 15
+

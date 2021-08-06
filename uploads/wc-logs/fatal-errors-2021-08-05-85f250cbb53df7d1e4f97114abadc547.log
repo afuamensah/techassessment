@@ -1,0 +1,110 @@
+2021-08-05T21:31:00+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(303): show_attributes('')
+#1 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\techtest\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\techtest\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\techtest\wp-includes\template-loader.php(106): include('C:\ in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php on line 17
+
+2021-08-05T21:31:36+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(303): show_attributes('')
+#1 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\techtest\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\techtest\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\techtest\wp-includes\template-loader.php(106): include('C:\ in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php on line 17
+
+2021-08-05T21:36:03+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::wc_attribute_label() in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php:15
+Stack trace:
+#0 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(303): show_attributes('')
+#1 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\techtest\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\techtest\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\techtest\wp-includes\template-loader.php(106): include('C:\\xamp in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php on line 15
+
+2021-08-05T21:42:57+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php:16
+Stack trace:
+#0 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(303): show_attributes('')
+#1 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\techtest\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\techtest\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\techtest\wp-includes\template-loader.php(106): include('C:\ in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php on line 16
+
+2021-08-05T21:52:03+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_attribute_summary() in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php:14
+Stack trace:
+#0 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(303): show_attributes('')
+#1 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\techtest\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\techtest\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\techtest\wp-includes\template-loader.php(106): include('C:\\x in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php on line 14
+
+2021-08-05T21:52:54+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_attribute_summary() in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php:14
+Stack trace:
+#0 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(303): show_attributes('')
+#1 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\techtest\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\techtest\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\techtest\wp-includes\template-loader.php(106): include('C:\\x in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php on line 14
+
+2021-08-05T21:59:56+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php:16
+Stack trace:
+#0 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(303): show_attributes('')
+#1 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\techtest\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\techtest\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\techtest\wp-includes\template-loader.php(106): include('C:\ in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php on line 16
+
+2021-08-05T22:24:24+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php:16
+Stack trace:
+#0 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(303): show_attributes('')
+#1 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\techtest\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\techtest\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\techtest\wp-includes\template-loader.php(106): include('C:\\xampp\\htdoc in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php on line 16
+
+2021-08-05T22:25:49+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php:16
+Stack trace:
+#0 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(303): show_attributes('')
+#1 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\techtest\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\techtest\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\techtest\wp-includes\template-loader.php(106): include('C:\\xampp\\htdoc in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php on line 16
+
+2021-08-05T22:34:56+00:00 CRITICAL Uncaught Error: Object of class WC_Product_Attribute could not be converted to string in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(303): show_attributes('')
+#1 C:\xampp\htdocs\techtest\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\techtest\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\content-product.php(65): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\techtest\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\techtest\wp-content\plugins\woocommerce\templates\archive-product.php(70): wc_get_template_part('content', 'product')
+#7 C:\xampp\htdocs\techtest\wp-includes\template-loader.php(106): include('C:\ in C:\xampp\htdocs\techtest\wp-content\themes\twentytwentyone-child\functions.php on line 17
+

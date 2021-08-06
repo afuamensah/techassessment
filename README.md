@@ -1,10 +1,8 @@
 # Technical Assessment - Pop's Tops Store
 
-**Note:** *I was not entirely sure what folder to push to the repo, but I assumed that I would need the theme and and plugin in there, so I added the entire wp-content folder for good measure. Additionally, I was not sure how to push the database, so I exported the database tables into an .sql file and pushed the file to this repo.*
+**Note:** *I was not entirely sure what folder to push to the repo, but I assumed that I would need the theme and and plugin in there, so I added the entire wp-content folder for good measure. Additionally, I was not sure how to push the database, so I did two things: I pushed the data from the database used in mysql, and I exported the tables from the database into an SQL file for good measure.*
 
-To see just the **functions.php** file, I have put the link here:
-
-To see the **testtech.sql** file, it is here:
+To see just the **functions.php** file, I have put the link here: https://github.com/afuamensah/techassessment/blob/main/themes/twentytwentyone-child/functions.php
 
 <br/>
 

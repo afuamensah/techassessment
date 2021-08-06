@@ -1,6 +1,6 @@
 # Technical Assessment - Pop's Tops Store
 
-**Note:** *I was not entirely sure what folder to push to the repo, but I assumed that I would need the theme and and plugin in there, so I added the entire wp-content folder for good measure. Additionally, I was not sure how to export the database, so I exported the database tables into an .sql file and pushed to this repo.*
+**Note:** *I was not entirely sure what folder to push to the repo, but I assumed that I would need the theme and and plugin in there, so I added the entire wp-content folder for good measure. Additionally, I was not sure how to push the database, so I exported the database tables into an .sql file and pushed the file to this repo.*
 
 To see just the **functions.php** file, I have put the link here:
 

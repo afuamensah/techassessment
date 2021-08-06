@@ -10,7 +10,7 @@ To see just the **functions.php** file, I have put the link here: https://github
 
 First, after downloading the Wordpress zipped folder, I extracted it and moved it to the htdocs folder in XAMPP.
 
-I then created a database using PHPMYAdmin called techtest.
+I then created a database in PHPMyAdmin called techtest.
 
 After completing the starting steps, I created a child theme of the parent Twenty Twenty-One theme. Here are the steps I took to do it.
 1. I created a folder called "twentytwentyone-child" in the wp-content/themes folder.
